@@ -111,7 +111,7 @@ def findsignchange(xvals, yvals,rounding): #accepts x values and y values to det
         if changesign(yvals[count-1], yvals[count+1], rounding): #this additional step is to ensure zeroes are still included
             signchange.append(xvals[count])
       except:
-        yvals[count] == none or yvals[count-1] == none or yvals[count+1] == none
+        yvals[count] == None or yvals[count-1] == None or yvals[count+1] == None
     return signchange
 
   
